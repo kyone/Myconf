@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"Color Highlighter",
+		"Colorcoder",
+		"ColorPicker",
+		"Find++",
+		"Function Name Display",
+		"JavaIME",
+		"Javap",
+		"Javatar",
+		"Markdown HTML Preview",
+		"Material Theme",
+		"Material Theme - Appbar",
+		"Material Theme - White Panels",
+		"Package Control",
+		"RawLineEdit",
+		"Run Apps",
+		"Theme - Flatland",
+		"Theme - SoDaReloaded"
+	]
+}

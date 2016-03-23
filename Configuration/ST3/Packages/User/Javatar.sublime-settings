@@ -1,0 +1,50 @@
+{
+	"javatar_gp": 0,
+	"jdk_version":
+	{
+		"JDK1.6.0u65":
+		{
+			"path": "/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bin",
+			"update": "65",
+			"version": "1.6.0"
+		},
+		"JDK1.8.0u45":
+		{
+			"path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin",
+			"update": "45",
+			"version": "1.8.0"
+		},
+		"use": ""
+	},
+	"message_id": 20,
+	"project_data":
+	{
+		"2":
+		{
+			"folders":
+			[
+				{
+					"path": "/Users/paul/Downloads/sdk_demo_app_android-master"
+				}
+			]
+		},
+		"3":
+		{
+			"folders":
+			[
+				{
+					"path": "/Users/paul/Work/Godzilab/PocketCity"
+				}
+			]
+		},
+		"4":
+		{
+			"folders":
+			[
+				{
+					"path": "/Users/paul/Work/Godzilab/HappyPirate"
+				}
+			]
+		}
+	}
+}
