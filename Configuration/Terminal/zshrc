@@ -1,0 +1,133 @@
+#################
+## Keys Binding ##
+ #################
+
+bindkey "^[[1~" beginning-of-line # Home Binding
+bindkey "^[[4~" end-of-line # End Binding
+bindkey "^[[2~" overwrite-mode # Insert Binding
+bindkey "^[[3~" delete-char # Del. Binding
+bindkey "^[[5~" history-search-backward
+bindkey "^[[6~" history-search-forward
+bindkey "^?" backward-delete-char # BackSpace Binding
+bindkey "^A" beginning-of-line # CTRL-A Binding
+bindkey "^E" end-of-line # CTRL-A Binding
+bindkey "^[[5D" backward-word # CTRL-Left Binding
+bindkey "^[[5C" forward-word # CTRL-Right Binding
+bindkey "^[^[[D" backward-word # ALT-Left Binding
+bindkey "^[^[[C" forward-word # ALT-Right Binding
+limit core 0
+
+####################
+## Options Settings ##
+ #####################
+
+setopt correct
+setopt auto_cd
+setopt auto_list
+setopt auto_param_keys
+setopt auto_param_slash
+setopt complete_aliases
+setopt equals
+setopt extended_glob
+setopt hash_cmds
+setopt hash_dirs
+setopt mail_warning
+setopt magic_equal_subst
+setopt numericglobsort
+setopt menu_complete
+setopt LIST_TYPES
+setopt LIST_PACKED
+
+setopt append_history
+setopt hist_verify
+setopt share_history
+setopt extended_history
+setopt hist_ignore_dups
+setopt hist_reduce_blanks
+
+####################
+## commands aliases ##
+ #####################
+
+if [ -s /$HOME/.my_aliases ] ; then
+    . /$HOME/.my_aliases
+fi
+
+if [ -s /$HOME/.my_commands ] ; then
+    . /$HOME/.my_commands
+fi
+
+############################################
+# Global aliases -- These do not have to be ##
+##  at the beginning of the command line.    ##
+ ##############################################
+
+alias -g M='|more'
+alias -g H='|head'
+alias -g T='|tail'
+alias -g tcopt="--types-check --hir-compute --hir-display" ## For Tiger
+
+###########
+## Prompt ##
+ ###########
+
+autoload -U colors
+colors
+
+user_color="cyan"
+host_color="blue"
+path_color="green"
+time_color="white"
+err_color="red"
+
+end="%{$reset_color%}"
+user="%{$fg[$user_color]%}%n"
+time="%F%{$fg[$time_color]%}%T%f"
+host="%{$fg[$host_color]%}%m"
+err="%B%{$fg[$err_color]%}%?%b"
+mypath="%{$fg[$path_color]%}%~"
+cpath="%B%{$fg[$path_color]%}%10<...<%~%b"
+
+PS1="$mypath $end"
+RPS1="%(?,$user$end.$host,$err) $time"
+
+####################
+## Terminal Stuffs ##
+ ####################
+
+#case $TERM in (xterm*|rxvt)
+#    precmd () { print -Pn "\e]0;%n@%m: %~\a" }
+#    preexec () { print -Pn "\e]0;%n@%m: $*\a" }
+#    ;;
+#esac
+
+###############################
+## Plugins autoload && bindkey ##
+ ################################
+
+autoload mere zed zfinit; zmodload zsh/complist; #bindkey  menu-select
+autoload incremental-complete-word; zle -N incremental-complete-word; #bindkey  incremental-complete-word
+autoload insert-files; zle -N insert-files; #bindkey  insert-files
+zmodload zsh/zpty
+autoload nslookup
+autoload -U zed
+autoload -U zmv
+autoload compinit; compinit -u
+
+# Bash-like command editing 
+autoload -U edit-command-line; zle -N edit-command-line; bindkey '^X^e' edit-command-line;
+
+zstyle ':completion:*' format '%{%}-> %{%}%d%{%}'
+zstyle ':completion:*' auto-description 'specify: %d'
+zstyle ':completion:*' completer _complete _correct _approximate
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*' insert-unambiguous true
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'l:|=* r:|=*' 'r:|[._-]=* r:|=*'
+zstyle ':completion:*' max-errors 2
+zstyle ':completion:*' menu select=5
+zstyle ':completion:*' original true
+zstyle ':completion:*' squeeze-slashes true
+zstyle ':completion:*' verbose true
+zstyle ':completion:*:processes' list-colors '=(#b)(?????)(#B)?????????????????????????????????([^ ]#/)#(#b)([^ /]#)*=00=01;31=01;33'
+

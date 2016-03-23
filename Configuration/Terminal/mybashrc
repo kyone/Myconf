@@ -1,0 +1,20 @@
+#Alias
+alias emacs='emacs -nw'
+alias cd..='cd ..'
+alias lockit='zlock -immed'
+alias pcc='gcc -Wall -Werror -ansi -pedantic -W'
+alias ascii='man ascii'
+alias cls='clear'
+alias suncc='/usr/local/bin/gcc -Wall -W -Werror -pedantic -m64'
+alias alphacc='/bin/cc -w2 -std1 -warnprotos'
+alias la='ls -a'
+alias ll='ls -l'
+alias lal='ls -a -l'
+
+#Variables
+export EDITOR='emacs -nw'
+export NNTPSERVER=news.epita.fr
+
+#Commandes
+xset b off
+export MALLOC_OPTIONS=J

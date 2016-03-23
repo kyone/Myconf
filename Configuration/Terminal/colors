@@ -1,0 +1,43 @@
+# Define colors - code for later use . ~/.colors
+
+ESC=""
+
+CLEAR="$ESC[H$ESC[J"
+
+# Attribute codes:			Color Codes:
+#							Text    Background
+# 00    none				black		30      40
+# 01    bold or bright			red		31      41
+# 04    underlined			green		32      42
+# 05    flashing			yellow		33      43
+# 07    reverse				blue		34      44
+# 08    concealed			magenta		35      45
+#					cyan		36      46
+# 					white		37      47
+
+NORMAL="${ESC}[00m"
+BRIGHT="${ESC}[01m"
+UNDER="${ESC}[04m"
+FLASH="${ESC}[05m"
+REVERSE="${ESC}[07m"
+CANC="${ESC}[08m"
+
+# T* text color
+# B* background color
+
+TBLACK="${ESC}[30m"
+BBLACK="${ESC}[40m"
+TRED="${ESC}[31m"
+BRED="${ESC}[41m"
+TGREEN="${ESC}[32m"
+BGREEN="${ESC}[42m"
+TYELLOW="${ESC}[33m"
+BYELLOW="${ESC}[43m"
+TBLUE="${ESC}[34m"
+BBLUE="${ESC}[44m"
+TMAGENTA="${ESC}[35m"
+BMAGENTA="${ESC}[45m"
+TCYAN="${ESC}[36m"
+BCYAN="${ESC}[46m"
+TWHITE="${ESC}[37m"
+BWHITE="${ESC}[47m"

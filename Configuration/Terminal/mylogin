@@ -1,0 +1,2 @@
+setenv SHELL "`which zsh`"
+exec "$SHELL" --login

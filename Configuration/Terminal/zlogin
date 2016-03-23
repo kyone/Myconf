@@ -1,0 +1,2 @@
+echo -e "Bienvenue sur \033[32m`echo ${HOST}`\033[00m" ;
+ARGV0='Actually, you can say I am a nerd' exec zsh ;%

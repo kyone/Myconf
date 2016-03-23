@@ -1,0 +1,35 @@
+;;
+;; .myemacs for .myemacs in /u/a1/henrio_p
+;;
+;; Made by paul-arthur henrion
+;; Login   <henrio_p@epita.fr>
+;;
+;; Started on  Fri Dec 23 14:10:07 2005 paul-arthur henrion
+;; Last update Tue May 30 02:19:21 2006 Paul Arthur Henrion
+;;
+
+;; DEL works like it does
+(global-set-key [delete] 'delete-char)
+;; Writes backup within the file
+(setq backup-inhibited)
+;; Allows mouse-wheeling
+(mouse-wheel-mode 1)
+;; Allows selection delete
+(delete-selection-mode 1)
+
+;; Shows syntaxic coloration
+(global-font-lock-mode)
+;; Shows columns numbers
+(column-number-mode 1)
+;; Shows the couples
+(show-paren-mode 1)
+;; Shows the Speedbar (sometime pissy under SSH)
+;;(speedbar 1)
+;; Shows selected region
+(transient-mark-mode 1)
+;; Shows filename is the window's titlebar
+(setq frame-title-format "%b")
+;; Unshows the menu bar
+(menu-bar-mode 0)
+;; Unshows the tool bar
+(tool-bar-mode 0)

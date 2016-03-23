@@ -1,0 +1,29 @@
+"Highlight Syntax
+" :syntax on
+
+"Disable VI old bugs
+:set nocompatible
+
+"Indentation stuffz
+:set autoindent
+:set smartindent
+:set tabstop=4
+:set shiftwidth=4
+
+"Show line number
+:set number
+
+"Show matching parenthesis
+:set showmatch
+
+"Highlight search
+:set hlsearch
+
+"Show line info at bottom left
+:set ruler
+
+"Search as you type
+:set incsearch
+
+"Place the cursor where you want
+":set virtualedit=all

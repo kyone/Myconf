@@ -1,0 +1,29 @@
+# My Aliases
+alias cd..='cd ..'
+alias pcc='gcc -Wall -Werror -ansi -pedantic -W'
+alias ascii='man ascii'
+alias cls='clear'
+alias ls='ls -G'
+alias la='ls -a'
+alias ll='ls -l'
+alias lal='ls -a -l'
+alias l='ls -1'
+alias grep='grep --color'
+alias lib='cc -W -Wall -Werror -c'
+alias rm='rm -i'
+alias p++='g++ -W -Wall -Werror'
+alias mkdir='nocorrect mkdir' # no spelling correction on mkdir
+alias cache='find . -name Cache -exec rm -Rf {} \;'
+alias clean='find . \( -name ".Trash" -or -name ".*\~" -or -name "*\~" -or -name "\#*" \) -exec rm -Rf {} \;'
+alias a='make distclean && ./configure && make'
+alias egrep='grep -E --color'
+alias b='cd ..'
+alias cleanchmod='find . -type d -exec chmod 711 {} \; -or -name "*.sh" -exec 711 {} \; -or -type f -exec chmod 700 {} \;'
+alias sup='svn up'
+alias sci='svn commit'
+alias smod="svn st | grep 'M ' | cut -d ' ' -f 8"
+alias sdiff="svn diff | mate"
+alias sconflict="svn status | grep 'C ' | cut -d ' ' -f 8 | xargs -J % mate %"
+alias sgrep="grep --exclude='*.svn*'"
+
+alias epita='ssh -l henrio_p ssh.epita.fr'

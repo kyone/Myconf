@@ -1,0 +1,38 @@
+if [ -f ~/.my_aliases ] ; then
+	source ~/.my_aliases
+fi
+
+
+
+esc="\033["
+
+none="${esc}0m"
+
+fblack="${esc}30m"
+fred="${esc}31m"
+fgreen="${esc}32m"
+fyellow="${esc}33m"
+fblue="${esc}34m"
+fpink="${esc}35m"
+flightblue="${esc}36m"
+fwhite="${esc}37m"
+
+fbblack="${esc}30;1m"
+fbred="${esc}31;1m"
+fbgreen="${esc}32;1m"
+fbyellow="${esc}33;1m"
+fbblue="${esc}34;1m"
+fbpink="${esc}35;1m"
+fblightblue="${esc}36;1m"
+fbwhite="${esc}37;1m"
+
+bblack="${esc}40m"
+bred="${esc}41m"
+bgreen="${esc}42m"
+byellow="${esc}43m"
+bblue="${esc}44m"
+bpink="${esc}45m"
+blightblue="${esc}46m"
+bwhite="${esc}47m"
+
+PS1='\033[36m\t \033[0m($?) \033[32m\w \033[0m'

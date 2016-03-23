@@ -1,0 +1,37 @@
+###############################
+## Environment variables export
+###############################
+export BLOCK_SIZE=human-readable
+
+# History stuffz
+export HISTSIZE=10000
+export SAVEHIST=10000
+export HISTFILE=~/.zshhistory
+
+###############################
+## Environment variables export
+###############################
+export TERM=xterm
+export COLORTERM=xterm
+export LS_COLORS='no=00:fi=00:di=0;33:ln=01;36:pi=40;33:so=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jpg=01;35:*.gif=01;35:*.bmp=01;35:*.pgm=01;35:*.pbm=01;35:*.ppm=01;35:*.tga=01;35:*.png=01;35:*.GIF=01;35:*.JPG=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.mpg=01;39:*.avi=01;39:*.gl=01;39:*.dl=01;39:*.mly=01;39:*.mll=01;39:*.mli=01;39:*.ml=01;39:*.tex=01;39:*.log=4;37:*.old=4;37:*TODO=01;39:*ChangeLog=01;39:*.patch=4;31:*.bib=01;39:*.ics=01;39:*.cpp=01;39:*.cc=01;39:*.c=01;39:*.hh=01;39:*.h=01;39:*Makefile=4;32:*.pl=4;32:*.sh=4;32:*.ps=4;34:*.pdf=4;34:*.mail=01;39'
+export LOGCHECK=60
+export WATCHFMT='%n has %a %l from %M'
+export WATCH=all
+export SHELL='/bin/zsh'
+export TERM=xterm-color
+export EADNULLCMD=less
+export LESS=-cex3M
+export PRCS_LOGQUERY=1
+export EDITOR='subl -w'
+export VISUAL='subl -w'
+
+## Setting WORDCHARS
+export WORDCHARS='*?_-[]~&!#$%^(){}<>%'
+
+## Setting PATH
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/Applications/Android/sdk/tools:/Applications/Android/sdk/platform-tools:/Applications/Android/ndk
+export ANDROID_SDK=/Applications/Android/sdk
+export ANDROID_NDK=/Applications/Android/ndk
+
+## Maven and Java
+export JAVA_HOME=$(/usr/libexec/java_home)
