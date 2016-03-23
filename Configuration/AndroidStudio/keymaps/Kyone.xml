@@ -1,0 +1,86 @@
+<keymap version="1" name="Kyone" parent="Mac OS X 10.5+">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta OPEN_BRACKET" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
+  <action id="CleanGradleProject">
+    <keyboard-shortcut first-keystroke="shift meta K" />
+  </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta RIGHT" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta LEFT" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="shift meta T" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta CLOSE_BRACKET" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="meta T" />
+  </action>
+  <action id="GotoTest" />
+  <action id="Images.ShowThumbnails" />
+  <action id="IncrementWindowWidth" />
+  <action id="IntroduceField" />
+  <action id="Move" />
+  <action id="NextDiff" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
+  </action>
+  <action id="Pause">
+    <keyboard-shortcut first-keystroke="shift F8" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="meta alt LEFT" />
+  </action>
+  <action id="Refresh" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="meta alt F" />
+  </action>
+  <action id="Rerun" />
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="F8" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta R" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="meta alt 2" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="F6" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="F7" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="F9" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="meta alt 1" />
+  </action>
+  <action id="UsageView.Rerun" />
+  <action id="Vcs.Push" />
+  <action id="Vcs.UpdateProject" />
+</keymap>

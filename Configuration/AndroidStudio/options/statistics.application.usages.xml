@@ -1,0 +1,55 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="run-configuration-type">
+      <project id="PocketCity" values="AndroidRunConfigurationType" collectionTime="1457634817611" />
+      <project id="My Application" values="AndroidRunConfigurationType" collectionTime="1447268975480" />
+      <project id="HappyPirate" values="Unknown,AndroidRunConfigurationType" collectionTime="1458675565733" />
+    </group>
+    <group name="module type">
+      <project id="PocketCity" values="JAVA_MODULE" collectionTime="1457634817610" />
+      <project id="My Application" values="JAVA_MODULE" collectionTime="1447268975479" />
+      <project id="HappyPirate" values="JAVA_MODULE" collectionTime="1458675565652" />
+    </group>
+    <group name="vcs">
+      <project id="HappyPirate" values="Git" collectionTime="1458675565643" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="HappyPirate" values="GradleRunConfiguration" collectionTime="1458675565779" />
+    </group>
+    <group name="file-type">
+      <project id="PocketCity" values="ARCHIVE,AIDL,PLAIN_TEXT,ObjectiveC,IDEA_MODULE,ProGuard File,XML,Properties,JAVA,Images,UNKNOWN,Bash,Groovy" collectionTime="1457634817692" />
+      <project id="My Application" values="ARCHIVE,ProGuard File,Images,IDEA_MODULE,Groovy,PLAIN_TEXT,JAVA,AIDL,Bash,XML,UNKNOWN,Properties" collectionTime="1447268975907" />
+      <project id="HappyPirate" values="ProGuard File,Properties,AIDL,PLAIN_TEXT,JavaScript,Bash,IDEA_MODULE,Groovy,Python,CSS,HTML,ARCHIVE,ObjectiveC,Images,JSON,UNKNOWN,XML,JAVA" collectionTime="1458675566558" />
+    </group>
+    <group name="frameworks">
+      <project id="PocketCity" values="android-gradle,java-gradle,android" collectionTime="1457634817610" />
+      <project id="My Application" values="android,java-gradle,android-gradle" collectionTime="1447268975479" />
+      <project id="HappyPirate" values="java-gradle,android-gradle,android" collectionTime="1458675565646" />
+    </group>
+    <group name="language-level">
+      <project id="PocketCity" values="JDK_1_6" collectionTime="1457634817708" />
+      <project id="My Application" values="JDK_1_7" collectionTime="1447268975937" />
+      <project id="HappyPirate" values="JDK_1_7" collectionTime="1458675566872" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="17" />
+      <entry feature="execute.AndroidNativeRunConfigurationType.Debug" count="4" />
+      <entry feature="execute.AndroidRunConfigurationType.Debug" count="41" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="1456" />
+      <entry feature="execute.GradleRunConfiguration.Run" count="14" />
+      <entry feature="execute.Remote.Debug" count="1" />
+      <entry feature="ide.help.refactoring.safeDelete" count="2" />
+      <entry feature="ide.help.reference.dialogs.rundebug.AndroidNativeRunConfigurationType" count="2" />
+      <entry feature="ide.help.top" count="1" />
+      <entry feature="ide.settings.Android_SDK" count="8" />
+      <entry feature="ide.settings.Appearance" count="3" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="1" />
+      <entry feature="ide.settings.Gradle" count="1" />
+      <entry feature="ide.settings.Keymap" count="13" />
+      <entry feature="ide.settings.Project_Structure" count="4" />
+      <entry feature="ideaapp.started" count="99" />
+    </counts>
+  </component>
+</application>
