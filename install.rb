@@ -15,6 +15,11 @@ class Main
             opts.on("-u", "--undo", "delete created files") do |pass|
                 @options[:undo] = pass
             end
+
+            opts.on("-s", "--sync", "read preferences of current user and copy in `Configuration` folder") do |pass|
+                @options[:sync] = pass
+            end
+
         end
 
         optparser.parse!
@@ -40,6 +45,10 @@ class Main
                     if File.file?(output)
                         puts "Remove #{output}"
                         FileUtils.rm_f(output)
+                    end
+                elsif @options[:sync]
+                    if File.file?(output)
+                        FileUtils.cp(output, file, { :verbose => true })
                     end
                 else
                     if File.directory?(output)
