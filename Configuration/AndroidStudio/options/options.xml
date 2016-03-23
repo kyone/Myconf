@@ -15,8 +15,6 @@
     <property name="AndroidInitConfigurator.V2" value="true" />
     <property name="installation.uid" value="2a074179-8b96-47c7-b508-7ae4af225e5a" />
     <property name="default.storage.format" value=".idea (directory based)" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/Work/Godzilab/PocketCity&#10;/Users/paul/Work/Godzilab/HappyPirate/build.gradle&#10;/Users/paul/Work/Godzilab/HappyPirate&#10;/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home" />
-    <property name="last.imported.location" value="$USER_HOME$/Work/Godzilab/PocketCity" />
     <property name="file.colors.enable.non.project" value="Yellow" />
     <property name="file.colors.enable.tests" value="Green" />
     <property name="Non-Project Files" value="Yellow" />

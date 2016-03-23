@@ -1,14 +1,4 @@
-;;
-;; .myemacs for .myemacs in /u/a1/henrio_p
-;;
-;; Made by paul-arthur henrion
-;; Login   <henrio_p@epita.fr>
-;;
-;; Started on  Fri Dec 23 14:10:07 2005 paul-arthur henrion
-;; Last update Tue May 30 02:19:21 2006 Paul Arthur Henrion
-;;
-
-;; DEL works like it does
+;; DEL works like it should
 (global-set-key [delete] 'delete-char)
 ;; Writes backup within the file
 (setq backup-inhibited)

@@ -19,32 +19,5 @@
 	"message_id": 20,
 	"project_data":
 	{
-		"2":
-		{
-			"folders":
-			[
-				{
-					"path": "/Users/paul/Downloads/sdk_demo_app_android-master"
-				}
-			]
-		},
-		"3":
-		{
-			"folders":
-			[
-				{
-					"path": "/Users/paul/Work/Godzilab/PocketCity"
-				}
-			]
-		},
-		"4":
-		{
-			"folders":
-			[
-				{
-					"path": "/Users/paul/Work/Godzilab/HappyPirate"
-				}
-			]
-		}
 	}
 }
