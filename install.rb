@@ -19,10 +19,15 @@ class Main
             opts.on("-s", "--sync", "read preferences of current user and copy in `Configuration` folder") do |pass|
                 @options[:sync] = pass
             end
-
         end
 
-        optparser.parse!
+        begin
+            optparser.parse! args
+        rescue OptionParser::InvalidOption => e
+            $stderr.puts e.to_s
+            $stderr.puts optparser.help
+            exit 1
+        end
 
         @configuration = [
             { :conf => "Configuration/Preferences", :path => "~/Library/Preferences" },
