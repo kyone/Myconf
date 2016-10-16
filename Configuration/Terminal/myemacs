@@ -1,4 +1,4 @@
-;; DEL works like it should
+;; DEL works like it does
 (global-set-key [delete] 'delete-char)
 ;; Writes backup within the file
 (setq backup-inhibited)

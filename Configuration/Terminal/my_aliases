@@ -25,5 +25,3 @@ alias smod="svn st | grep 'M ' | cut -d ' ' -f 8"
 alias sdiff="svn diff | mate"
 alias sconflict="svn status | grep 'C ' | cut -d ' ' -f 8 | xargs -J % mate %"
 alias sgrep="grep --exclude='*.svn*'"
-
-alias epita='ssh -l henrio_p ssh.epita.fr'

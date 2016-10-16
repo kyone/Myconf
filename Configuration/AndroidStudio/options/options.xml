@@ -25,7 +25,6 @@
     <property name="lastTip" value="1" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
     <property name="FindSplitterProportion" value="0.25" />
-    <property name="SAVED_COMPANY_DOMAIN" value="godzilab.com" />
     <property name="MobileminApi" value="9" />
     <property name="fileTypeChangedCounter" value="10" />
     <property name="ShowDocumentationInToolWindow" value="true" />
