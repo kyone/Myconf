@@ -43,14 +43,16 @@ class Main
     end
     
     def askToExecute(question, code)
-        if !@options[:yes]
-            puts "#{question}? [yN]"
-            a = gets.chomp.downcase
-            if a == "y" || a == "yes" || a == "yep"
-                yield code
+        if code
+            if !@options[:yes]
+                puts "#{question}? [yN]"
+                a = gets.chomp.downcase
+                if a == "y" || a == "yes" || a == "yep"
+                    code.call()
+                end
+            else
+                code.call()
             end
-        else
-            yield code
         end
     end
 
@@ -63,7 +65,7 @@ class Main
                 question = "Copy current system's \"#{conf[:description]}\" into `Configuration` folder}"
             end
 
-            code = lambda { |conf|
+            code = lambda {
                 Dir.glob(File.join(conf[:conf], "**/**")) do |file|
                     output = File.join(conf[:path], file[conf[:conf].length, file.length - conf[:conf].length])
 
